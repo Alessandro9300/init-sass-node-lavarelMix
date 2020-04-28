@@ -1,0 +1,27 @@
+
+
+$color: #15ff15;
+
+.row{
+
+  h1{
+    background: $color;
+    color: black;
+  }
+  & h1:hover{
+    background: black;
+    color: $color;
+    cursor: pointer;
+  }
+}
+
+h1{
+  background: red;
+  color: yellow;
+
+  &:hover{
+    color: red;
+    background: yellow;
+  }
+
+}
